@@ -6,28 +6,20 @@ import {
   BoxGeometry,
   MeshPhongMaterial,
   ShadowMaterial,
-  FlatShading,
   Mesh,
   AmbientLight,
   DirectionalLight,
   PointLight,
   WebGLRenderer,
   JSONLoader,
-  DoubleSide,
-  ObjectLoader,
-  // FBXLoader,
   SkinnedMesh,
   AnimationMixer,
-  MeshBasicMaterial,
   PlaneBufferGeometry,
-  GLTFLoader,
 } from 'three-full';
-import FBXLoader from 'three-fbx-loader';
+import {GameContext} from '../../state/game';
+import PlayerInstance from '../PlayerInstance';
 
 let loader = new JSONLoader();
-// let loader = new FBXLoader();
-let fbxLoader = new FBXLoader();
-let gltfLoader = new GLTFLoader();
 
 const style = {
   backgroundColor: '#127DDA',
@@ -45,6 +37,7 @@ class MainScene extends Component {
   camera;
   scene;
   renderer;
+  mixers = {};
 
   geometry;
   material;
@@ -54,16 +47,26 @@ class MainScene extends Component {
   mixer;
   character;
 
-  fbxObject;
-  fbxMixer;
-
   containerRef;
+
+  props: {};
+
+  state: {};
 
   constructor(props) {
     super(props);
+    this.state = {
+      players: {
+        'simon': true,
+      },
+    };
     this.containerRef = React.createRef();
     this.scene = new Scene();
     this.animate = this.animate.bind(this);
+    this.addPlayerGroup = this.addPlayerGroup.bind(this);
+    this.removePlayerGroup = this.removePlayerGroup.bind(this);
+    this.addMixer = this.addMixer.bind(this);
+    this.removeMixer = this.removeMixer.bind(this);
   }
 
   componentDidMount() {
@@ -118,9 +121,7 @@ class MainScene extends Component {
     this.renderer.shadowMap.enabled = true;
     this.containerRef.current.appendChild(this.renderer.domElement);
 
-    this.initModels();
-    // this.initFbxModel();
-    // this.initGltfModel();
+    // this.initModels();
 
     this.animate();
 
@@ -151,6 +152,7 @@ class MainScene extends Component {
 
       this.character.scale.set(1, 1, 1);
       this.character.rotateY(Math.PI / 2);
+      this.character.position.x = 10;
       this.character.castShadow = true;
       this.character.receiveShadow = true;
 
@@ -184,64 +186,52 @@ class MainScene extends Component {
 
   }
 
-  initFbxModel() {
-
-    fbxLoader.load(`${process.env.PUBLIC_URL}/assets/models/Banana/Banana_re.fbx`, (object) => {
-      console.log('response', object);
-
-      this.fbxObject = object;
-
-      this.fbxObject.mixer = new AnimationMixer(this.fbxObject);
-
-      var action = this.fbxObject.mixer.clipAction(this.fbxObject.animations[0]);
-      action.play();
-
-      this.scene.add(this.fbxObject);
-
-      this.fbxObject.position.y = -100;
-
-      console.log('this.fbxObject', this.fbxObject);
-
-    });
-
-  }
-
-  initGltfModel() {
-
-    gltfLoader.load(`${process.env.PUBLIC_URL}/assets/models/Banana/Banana_2.gltf`, (gltf) => {
-      console.log('gltf', gltf);
-      this.scene.add(gltf.scene);
-    });
-
-  }
-
   animate() {
 
-    requestAnimationFrame(this.animate);
+    const delta = this.clock.getDelta();
 
     if (this.mixer) {
-      this.mixer.update(this.clock.getDelta());
+      this.mixer.update(delta);
     }
 
-    if (this.fbxObject) {
-      this.fbxObject.mixer.update(this.clock.getDelta());
+    for (let mixerId in this.mixers) {
+      const mixer = this.mixers[mixerId];
+      mixer.update(delta);
     }
-
-    if (this.character) {
-      // this.character.rotation.x += 0.01;
-      // this.character.rotation.y += 0.02;
-    }
-
-    this.mesh.rotation.x += 0.01;
-    this.mesh.rotation.y += 0.02;
 
     this.renderer.render(this.scene, this.camera);
 
+    requestAnimationFrame(this.animate);
+
+  }
+
+  addPlayerGroup(playerGroup) {
+    this.scene.add(playerGroup);
+  }
+
+  removePlayerGroup(playerGroup) {
+    this.scene.remove(playerGroup);
+  }
+
+  addMixer(id: string, mixer) {
+    this.mixers[id] = mixer;
+    console.log('mixer', mixer);
+  }
+
+  removeMixer(id: string,) {
+    this.mixers[id] = null;
+    delete this.mixers[id];
   }
 
   render() {
     return (
-      <div className='MainScene' style={style} ref={this.containerRef}></div>
+      <GameContext.Provider value={this.state}>
+        <div className='MainScene' style={style} ref={this.containerRef}>
+          <PlayerInstance addPlayerGroup={this.addPlayerGroup} removePlayerGroup={this.removePlayerGroup}
+                          addMixer={this.addMixer}
+                          removeMixer={this.removeMixer}/>
+        </div>
+      </GameContext.Provider>
     );
   }
 }
