@@ -1,0 +1,1068 @@
+{"frames": {
+
+"pineapple_idle_0009.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0010.png":
+{
+	"frame": {"x":336,"y":676,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0011.png":
+{
+	"frame": {"x":459,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0012.png":
+{
+	"frame": {"x":469,"y":226,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0013.png":
+{
+	"frame": {"x":456,"y":901,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0014.png":
+{
+	"frame": {"x":461,"y":676,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0015.png":
+{
+	"frame": {"x":584,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0016.png":
+{
+	"frame": {"x":594,"y":1,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0017.png":
+{
+	"frame": {"x":594,"y":226,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0018.png":
+{
+	"frame": {"x":475,"y":1126,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0019.png":
+{
+	"frame": {"x":581,"y":901,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0020.png":
+{
+	"frame": {"x":586,"y":676,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0021.png":
+{
+	"frame": {"x":709,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0022.png":
+{
+	"frame": {"x":475,"y":1351,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0023.png":
+{
+	"frame": {"x":480,"y":1576,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0024.png":
+{
+	"frame": {"x":501,"y":1801,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0025.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0026.png":
+{
+	"frame": {"x":719,"y":1,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0027.png":
+{
+	"frame": {"x":719,"y":226,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0028.png":
+{
+	"frame": {"x":600,"y":1126,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0029.png":
+{
+	"frame": {"x":706,"y":901,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0030.png":
+{
+	"frame": {"x":711,"y":676,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0031.png":
+{
+	"frame": {"x":834,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0032.png":
+{
+	"frame": {"x":600,"y":1351,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0033.png":
+{
+	"frame": {"x":605,"y":1576,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0034.png":
+{
+	"frame": {"x":626,"y":1801,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0035.png":
+{
+	"frame": {"x":844,"y":1,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0036.png":
+{
+	"frame": {"x":844,"y":226,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0037.png":
+{
+	"frame": {"x":725,"y":1126,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0038.png":
+{
+	"frame": {"x":831,"y":901,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0039.png":
+{
+	"frame": {"x":836,"y":676,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_idle_0040.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0001.png":
+{
+	"frame": {"x":1375,"y":215,"w":128,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":26,"w":128,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0002.png":
+{
+	"frame": {"x":1631,"y":866,"w":126,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":24,"w":126,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0003.png":
+{
+	"frame": {"x":1239,"y":1,"w":128,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":23,"w":128,"h":217},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0004.png":
+{
+	"frame": {"x":1239,"y":220,"w":128,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":26,"w":128,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0005.png":
+{
+	"frame": {"x":1880,"y":1,"w":127,"h":214},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":30,"w":127,"h":214},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0006.png":
+{
+	"frame": {"x":1505,"y":435,"w":126,"h":210},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":33,"w":126,"h":210},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0007.png":
+{
+	"frame": {"x":1633,"y":435,"w":128,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":33,"w":128,"h":209},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0008.png":
+{
+	"frame": {"x":1880,"y":652,"w":126,"h":214},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":30,"w":126,"h":214},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0009.png":
+{
+	"frame": {"x":1880,"y":435,"w":126,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":26,"w":126,"h":215},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0010.png":
+{
+	"frame": {"x":1752,"y":646,"w":126,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":23,"w":126,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0011.png":
+{
+	"frame": {"x":1515,"y":217,"w":128,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":23,"w":128,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0012.png":
+{
+	"frame": {"x":1662,"y":1,"w":129,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":25,"w":129,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0013.png":
+{
+	"frame": {"x":1515,"y":1,"w":129,"h":214},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":30,"w":129,"h":214},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0014.png":
+{
+	"frame": {"x":1375,"y":433,"w":128,"h":212},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":31,"w":128,"h":212},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_running_0015.png":
+{
+	"frame": {"x":1375,"y":1,"w":129,"h":212},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":30,"w":129,"h":212},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0001.png":
+{
+	"frame": {"x":1130,"y":1573,"w":126,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":18,"w":126,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0002.png":
+{
+	"frame": {"x":1274,"y":1123,"w":127,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":19,"w":127,"h":220},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0003.png":
+{
+	"frame": {"x":1278,"y":1796,"w":127,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":20,"w":127,"h":220},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0004.png":
+{
+	"frame": {"x":1403,"y":1087,"w":125,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":22,"w":125,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0005.png":
+{
+	"frame": {"x":1880,"y":217,"w":126,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":25,"w":126,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0006.png":
+{
+	"frame": {"x":1624,"y":647,"w":126,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":26,"w":126,"h":217},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0007.png":
+{
+	"frame": {"x":1367,"y":647,"w":127,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":27,"w":127,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0008.png":
+{
+	"frame": {"x":1514,"y":1567,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":27,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0009.png":
+{
+	"frame": {"x":1534,"y":1788,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":26,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0010.png":
+{
+	"frame": {"x":1094,"y":1,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":24,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0011.png":
+{
+	"frame": {"x":1496,"y":647,"w":126,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":23,"w":126,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0012.png":
+{
+	"frame": {"x":1262,"y":1348,"w":124,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":19,"w":124,"h":221},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0013.png":
+{
+	"frame": {"x":1150,"y":1797,"w":126,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":18,"w":126,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0014.png":
+{
+	"frame": {"x":1258,"y":1573,"w":126,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":18,"w":126,"h":221},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0015.png":
+{
+	"frame": {"x":1388,"y":1345,"w":125,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":20,"w":125,"h":220},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0016.png":
+{
+	"frame": {"x":1094,"y":222,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":22,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0017.png":
+{
+	"frame": {"x":1515,"y":1307,"w":125,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":24,"w":125,"h":217},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0018.png":
+{
+	"frame": {"x":1759,"y":868,"w":125,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":27,"w":125,"h":216},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0019.png":
+{
+	"frame": {"x":1530,"y":1087,"w":125,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":28,"w":125,"h":217},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0020.png":
+{
+	"frame": {"x":1504,"y":867,"w":125,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":28,"w":125,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0021.png":
+{
+	"frame": {"x":1375,"y":867,"w":127,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":27,"w":127,"h":218},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0022.png":
+{
+	"frame": {"x":1222,"y":438,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":24,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0023.png":
+{
+	"frame": {"x":1239,"y":659,"w":126,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":22,"w":126,"h":219},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0024.png":
+{
+	"frame": {"x":1386,"y":1571,"w":126,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":20,"w":126,"h":220},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_walking_0025.png":
+{
+	"frame": {"x":1407,"y":1793,"w":125,"h":220},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":19,"w":125,"h":220},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0001.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0002.png":
+{
+	"frame": {"x":959,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0003.png":
+{
+	"frame": {"x":725,"y":1351,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0004.png":
+{
+	"frame": {"x":730,"y":1576,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0005.png":
+{
+	"frame": {"x":751,"y":1801,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0006.png":
+{
+	"frame": {"x":467,"y":1,"w":125,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":125,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0007.png":
+{
+	"frame": {"x":334,"y":226,"w":133,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":133,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0008.png":
+{
+	"frame": {"x":183,"y":1,"w":141,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":141,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0009.png":
+{
+	"frame": {"x":182,"y":226,"w":150,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":150,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0010.png":
+{
+	"frame": {"x":177,"y":1126,"w":159,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":159,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0011.png":
+{
+	"frame": {"x":1,"y":1801,"w":167,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":167,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0012.png":
+{
+	"frame": {"x":1,"y":1126,"w":174,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":174,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0013.png":
+{
+	"frame": {"x":1,"y":451,"w":178,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":178,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0014.png":
+{
+	"frame": {"x":1,"y":1,"w":180,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":180,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0015.png":
+{
+	"frame": {"x":1,"y":226,"w":179,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":179,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0016.png":
+{
+	"frame": {"x":1,"y":676,"w":177,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":177,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0017.png":
+{
+	"frame": {"x":1,"y":1576,"w":172,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":172,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0018.png":
+{
+	"frame": {"x":175,"y":1576,"w":166,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":166,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0019.png":
+{
+	"frame": {"x":339,"y":1801,"w":160,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":160,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0020.png":
+{
+	"frame": {"x":180,"y":676,"w":154,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":154,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0021.png":
+{
+	"frame": {"x":850,"y":1126,"w":148,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":148,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0022.png":
+{
+	"frame": {"x":956,"y":901,"w":143,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":143,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0023.png":
+{
+	"frame": {"x":961,"y":676,"w":139,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":139,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0024.png":
+{
+	"frame": {"x":1084,"y":451,"w":136,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":136,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0025.png":
+{
+	"frame": {"x":988,"y":1350,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0026.png":
+{
+	"frame": {"x":1000,"y":1125,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0027.png":
+{
+	"frame": {"x":1101,"y":900,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0028.png":
+{
+	"frame": {"x":1102,"y":675,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0029.png":
+{
+	"frame": {"x":876,"y":1798,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0030.png":
+{
+	"frame": {"x":850,"y":1350,"w":136,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":136,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0031.png":
+{
+	"frame": {"x":993,"y":1574,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0032.png":
+{
+	"frame": {"x":1125,"y":1349,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0033.png":
+{
+	"frame": {"x":1137,"y":1124,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0034.png":
+{
+	"frame": {"x":1238,"y":899,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0035.png":
+{
+	"frame": {"x":1013,"y":1798,"w":135,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":135,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0036.png":
+{
+	"frame": {"x":855,"y":1574,"w":136,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":17,"w":136,"h":222},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0037.png":
+{
+	"frame": {"x":319,"y":901,"w":135,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":135,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0038.png":
+{
+	"frame": {"x":338,"y":1126,"w":135,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":135,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0039.png":
+{
+	"frame": {"x":338,"y":1351,"w":135,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":135,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0040.png":
+{
+	"frame": {"x":343,"y":1576,"w":135,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":135,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0041.png":
+{
+	"frame": {"x":180,"y":901,"w":137,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":137,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0042.png":
+{
+	"frame": {"x":181,"y":451,"w":151,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":151,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0043.png":
+{
+	"frame": {"x":170,"y":1801,"w":167,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":167,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0044.png":
+{
+	"frame": {"x":1,"y":901,"w":177,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":177,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0045.png":
+{
+	"frame": {"x":1,"y":1351,"w":174,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":174,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0046.png":
+{
+	"frame": {"x":177,"y":1351,"w":159,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":159,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0047.png":
+{
+	"frame": {"x":326,"y":1,"w":139,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":139,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0048.png":
+{
+	"frame": {"x":969,"y":1,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0049.png":
+{
+	"frame": {"x":969,"y":226,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0050.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0051.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0052.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0053.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0054.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0055.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0056.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0057.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0058.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0059.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+},
+"pineapple_waving_0060.png":
+{
+	"frame": {"x":334,"y":451,"w":123,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":65,"y":16,"w":123,"h":223},
+	"sourceSize": {"w":250,"h":250}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d8b7183d301bfe772b4ed400b4ec3d8b:4e1d74b184ba0f73ab8401776d3c24d4:729adc6043343cfda41c447ce8f464d6$"
+}
+}

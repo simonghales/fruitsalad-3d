@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MainScene from './components/MainScene/MainScene';
-import ThreeJSAssetsLoader from './components/ThreeJSAssetsLoader/ThreeJSAssetsLoader';
+import GameScreen from './components/GameScreen';
+import PixiAssetsLoader from './components/PixiAssetsLoader';
 
 class App extends Component {
   render() {
     return (
-      <ThreeJSAssetsLoader>
-        <MainScene/>
-      </ThreeJSAssetsLoader>
+      <PixiAssetsLoader>
+        <GameScreen/>
+      </PixiAssetsLoader>
     );
   }
 }
