@@ -64,6 +64,8 @@ class GameScreen extends Component {
     this.containerRef = React.createRef();
     this.handleResize = this.handleResize.bind(this);
     this.resizeView = this.resizeView.bind(this);
+    this.addChildToScene = this.addChildToScene.bind(this);
+    this.removeChildFromScene = this.removeChildFromScene.bind(this);
     this.addPlayerToScene = this.addPlayerToScene.bind(this);
     this.removePlayerFromScene = this.removePlayerFromScene.bind(this);
     this.addMatterBody = this.addMatterBody.bind(this);
@@ -81,14 +83,16 @@ class GameScreen extends Component {
     setInterval(() => {
       this.setState({
         players: {
+          ...this.state.players,
           simon: {
             ...this.state.players.simon,
             displayName: !this.state.players.simon.displayName,
+            speechDrawingKey: new Date().getTime(),
             waveAnimation: new Date().getTime(),
           }
         }
       });
-    }, 5000);
+    }, 10000);
 
   }
 
@@ -115,13 +119,26 @@ class GameScreen extends Component {
       'simon': {
         animationState: PLAYER_ANIMATION_STATE_IDLE,
         animationDuration: 2000,
+        speechDrawingKey: new Date().getTime(),
         waveAnimation: new Date().getTime(),
         wavingState: null,
         name: 'Simon',
         displayName: true,
         fruit: 'banana',
         xPosition: randomIntFromInterval(100, window.innerWidth - 100),
-        yPosition: randomIntFromInterval(window.innerHeight, window.innerHeight - 200),
+        yPosition: window.innerHeight,
+      },
+      'chiao': {
+        animationState: PLAYER_ANIMATION_STATE_IDLE,
+        animationDuration: 2000,
+        speechDrawingKey: new Date().getTime(),
+        waveAnimation: new Date().getTime(),
+        wavingState: null,
+        name: 'Chiao',
+        displayName: true,
+        fruit: 'watermelon',
+        xPosition: randomIntFromInterval(100, window.innerWidth - 100),
+        yPosition: window.innerHeight,
       },
     };
     this.setState({
@@ -137,6 +154,14 @@ class GameScreen extends Component {
 
   resizeView() {
     this.app.renderer.resize(window.innerWidth, window.innerHeight);
+  }
+
+  addChildToScene(child) {
+    this.app.stage.addChild(child);
+  }
+
+  removeChildFromScene(child) {
+    this.app.stage.removeChild(child);
   }
 
   addPlayerToScene(player) {
@@ -200,6 +225,7 @@ class GameScreen extends Component {
       return (
         <PixiPlayer player={players[playerKey]} key={playerKey}
                     addPlayerToScene={this.addPlayerToScene} removePlayerFromScene={this.removePlayerFromScene}
+                    addChildToScene={this.addChildToScene} removeChildFromScene={this.removeChildFromScene}
                     addMatterBody={this.addMatterBody}
                     removeMatterBody={this.removeMatterBody}
                     ref={(element) => {

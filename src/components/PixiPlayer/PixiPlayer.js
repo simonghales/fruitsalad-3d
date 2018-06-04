@@ -6,6 +6,7 @@ import PixiPlayerModel from '../PixiPlayerModel/PixiPlayerModel';
 import {PLAYER_ANIMATION_STATE_IDLE, PLAYER_ANIMATION_STATE_RUNNING, PlayerState} from '../../state/game';
 import PixiPlayerName from '../PixiPlayerName/PixiPlayerName';
 import interpolate from 'interpolate-range';
+import PixiPlayerSpeech from '../PixiPlayerSpeech/PixiPlayerSpeech';
 
 export function getTweenDuration(duration: number): number {
   return duration / 1000;
@@ -35,12 +36,16 @@ class PixiPlayer extends Component {
   verticalTween;
   moveTween;
 
+  speechBubblesRefs = {};
+
   props: {
     player: PlayerState,
     addPlayerToScene(): void,
     removePlayerFromScene(): void,
     addMatterBody(): void,
     removeMatterBody(): void,
+    addChildToScene(): void,
+    removeChildFromScene(): void,
   };
 
   state: {
@@ -54,10 +59,13 @@ class PixiPlayer extends Component {
       updatingYPosition: false,
       updatingXPosition: false,
     };
+    this.addChildToParentContainer = this.addChildToParentContainer.bind(this);
+    this.removeChildToParentContainer = this.removeChildToParentContainer.bind(this);
     this.addChildToContainer = this.addChildToContainer.bind(this);
     this.addPlayerModelToContainer = this.addPlayerModelToContainer.bind(this);
     this.removePlayerModelFromContainer = this.removePlayerModelFromContainer.bind(this);
     this.updatePixiElements = this.updatePixiElements.bind(this);
+    this.removeSpeechBubbleRef = this.removeSpeechBubbleRef.bind(this);
 
     this.updateXPosition = this.updateXPosition.bind(this);
     this.setXMovementState = this.setXMovementState.bind(this);
@@ -110,6 +118,9 @@ class PixiPlayer extends Component {
   updatePixiElements() {
     if (!this.bodyBox || !this.playerContainer) return;
     this.playerContainer.position = this.bodyBox.position;
+    for (let speechBubbleId in this.speechBubblesRefs) {
+      this.speechBubblesRefs[speechBubbleId].updateContainerElement();
+    }
   }
 
   // end container
@@ -177,6 +188,14 @@ class PixiPlayer extends Component {
 
   // end update
 
+  addChildToParentContainer(child) {
+    this.props.addChildToScene(child);
+  }
+
+  removeChildToParentContainer(child) {
+    this.props.removeChildFromScene(child);
+  }
+
   addChildToContainer(child) {
     this.playerContainer.addChild(child);
   }
@@ -187,6 +206,31 @@ class PixiPlayer extends Component {
 
   removePlayerModelFromContainer(playerModel) {
     this.playerContainer.removeChild(playerModel);
+  }
+
+  handleSpeechBubbleRef(element, speechBubbleId) {
+    if (!this.speechBubblesRefs[speechBubbleId]) {
+      this.speechBubblesRefs[speechBubbleId] = element;
+    }
+  }
+
+  removeSpeechBubbleRef(speechBubbleId: string) {
+    this.speechBubblesRefs[speechBubbleId] = null;
+    delete this.speechBubblesRefs[speechBubbleId];
+  }
+
+  renderPlayerSpeechBubble() {
+    const {player} = this.props;
+    const speechBubbleId = player.speechDrawingKey;
+    return <PixiPlayerSpeech addChildToParentContainer={this.addChildToParentContainer}
+                             fruitType={player.fruit} addMatterBody={this.props.addMatterBody}
+                             removeMatterBody={this.props.removeMatterBody}
+                             bodyBox={this.bodyBox}
+                             ref={(element) => {
+                               this.handleSpeechBubbleRef(element, speechBubbleId);
+                             }}
+                             removeSpeechBubbleRef={this.removeSpeechBubbleRef}
+                             speechBubbleId={speechBubbleId} key={speechBubbleId}/>;
   }
 
   render() {
@@ -202,6 +246,7 @@ class PixiPlayer extends Component {
                          fruitType={player.fruit} ref={this.playerModelRef}/>
         <PixiPlayerName name={player.name} displayName={player.displayName}
                         addChildToContainer={this.addChildToContainer}/>
+        {this.renderPlayerSpeechBubble()}
       </React.Fragment>
     );
   }

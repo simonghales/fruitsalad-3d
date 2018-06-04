@@ -30,6 +30,7 @@ export const PLAYER_ANIMATION_STATE_RUNNING = 'running';
 export interface PlayerState {
   animationState: PLAYER_ANIMATION_STATE_IDLE | PLAYER_ANIMATION_STATE_WALKING | PLAYER_ANIMATION_STATE_WAVING,
   animationDuration: number,
+  speechDrawingKey: number,
   waveAnimation: number,
   isWalking: boolean,
   name: string,

@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import * as PIXI from "pixi.js";
-import {FRUIT_ASSETS_TO_LOAD, FruitAsset, pixiAssets, SPEECH_BUBBLE_ASSET} from '../../pixi/assets';
+import {
+  FRUIT_ASSETS, FruitAsset, MISC_ASSETS_TO_LOAD, pixiAssets,
+  SPEECH_BUBBLE_ASSET
+} from '../../pixi/assets';
 import {SpritesheetHandler} from '../../pixi/spritesheet';
 
 class PixiAssetsLoader extends Component {
@@ -40,8 +43,8 @@ class PixiAssetsLoader extends Component {
     let remainingAssets = 0;
     let loadingFruit = {};
 
-    for (let fruitKey in FRUIT_ASSETS_TO_LOAD) {
-      const fruit: FruitAsset = FRUIT_ASSETS_TO_LOAD[fruitKey];
+    for (let fruitKey in FRUIT_ASSETS) {
+      const fruit: FruitAsset = FRUIT_ASSETS[fruitKey];
       this.loader.add(fruitKey, fruit.image);
       this.loader.resources[fruitKey].onComplete.add(() => {
         this.handleFruitLoaded(fruitKey);
@@ -50,7 +53,7 @@ class PixiAssetsLoader extends Component {
       remainingAssets++;
     }
 
-    this.loader.add(SPEECH_BUBBLE_ASSET);
+    this.loader.add(SPEECH_BUBBLE_ASSET, MISC_ASSETS_TO_LOAD[SPEECH_BUBBLE_ASSET]);
     remainingAssets++;
 
     this.loader.load(this.handleLoaded);
@@ -74,8 +77,8 @@ class PixiAssetsLoader extends Component {
     });
     this.checkIfAllAssetsLoaded();
 
-    for (let fruitKey in FRUIT_ASSETS_TO_LOAD) {
-      const fruit: FruitAsset = FRUIT_ASSETS_TO_LOAD[fruitKey];
+    for (let fruitKey in FRUIT_ASSETS) {
+      const fruit: FruitAsset = FRUIT_ASSETS[fruitKey];
       pixiAssets.fruit[fruitKey] = new SpritesheetHandler(resources[fruitKey].texture.baseTexture, fruit.json);
       pixiAssets.fruit[fruitKey].createFrames(true)
         .then(() => {

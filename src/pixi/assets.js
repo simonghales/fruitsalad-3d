@@ -15,30 +15,36 @@ import peachSpritesheet from '../assets/animations/spritesheets/peach/combined/s
 export interface FruitAsset {
   image: string,
   json: string,
+  speechBubbleOffset: number,
 }
 
-export const FRUIT_ASSETS_TO_LOAD: {
+export const FRUIT_ASSETS: {
   [string]: FruitAsset,
 } = {
   'watermelon': {
     image: watermelonSpritesheet,
     json: watermelonJSON,
+    speechBubbleOffset: -170,
   },
   'banana': {
     image: bananaSpritesheet,
     json: bananaJSON,
+    speechBubbleOffset: -240,
   },
   'pineapple': {
     image: pineappleSpritesheet,
     json: pineappleJSON,
+    speechBubbleOffset: -235,
   },
   'avocado': {
     image: avocadoSpritesheet,
     json: avocadoJSON,
+    speechBubbleOffset: -235,
   },
   'peach': {
     image: peachSpritesheet,
     json: peachJSON,
+    speechBubbleOffset: -180,
   },
 };
 
@@ -47,7 +53,6 @@ export const SPEECH_BUBBLE_ASSET = 'speechBubble';
 export const MISC_ASSETS_TO_LOAD = {
   [SPEECH_BUBBLE_ASSET]: speechBubble,
 };
-
 
 export class PixiAssets {
 
