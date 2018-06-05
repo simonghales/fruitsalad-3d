@@ -80,19 +80,25 @@ class GameScreen extends Component {
     this.updatePlayerState();
     window.addEventListener('resize', this.handleResize);
 
+    this.odd = true;
+
     setInterval(() => {
-      this.setState({
-        players: {
-          ...this.state.players,
-          simon: {
-            ...this.state.players.simon,
-            displayName: !this.state.players.simon.displayName,
-            speechDrawingKey: new Date().getTime(),
-            waveAnimation: new Date().getTime(),
-          }
+      this.odd = !this.odd;
+      let players = {
+        simon: {
+          ...this.state.players.simon,
+          displayName: !this.state.players.simon.displayName,
+          speechDrawingKey: new Date().getTime(),
+          waveAnimation: new Date().getTime(),
         }
+      };
+      if (this.odd) {
+        players['chiao'] = this.getChiao();
+      }
+      this.setState({
+        players: players
       });
-    }, 10000);
+    }, 5000);
 
   }
 
@@ -114,6 +120,21 @@ class GameScreen extends Component {
 
   // state
 
+  getChiao() {
+    return {
+      animationState: PLAYER_ANIMATION_STATE_IDLE,
+      animationDuration: 2000,
+      speechDrawingKey: new Date().getTime(),
+      waveAnimation: new Date().getTime(),
+      wavingState: null,
+      name: 'Chiao',
+      displayName: true,
+      fruit: 'watermelon',
+      xPosition: randomIntFromInterval(100, window.innerWidth - 100),
+      yPosition: window.innerHeight,
+    };
+  }
+
   updatePlayerState() {
     const players = {
       'simon': {
@@ -128,18 +149,7 @@ class GameScreen extends Component {
         xPosition: randomIntFromInterval(100, window.innerWidth - 100),
         yPosition: window.innerHeight,
       },
-      'chiao': {
-        animationState: PLAYER_ANIMATION_STATE_IDLE,
-        animationDuration: 2000,
-        speechDrawingKey: new Date().getTime(),
-        waveAnimation: new Date().getTime(),
-        wavingState: null,
-        name: 'Chiao',
-        displayName: true,
-        fruit: 'watermelon',
-        xPosition: randomIntFromInterval(100, window.innerWidth - 100),
-        yPosition: window.innerHeight,
-      },
+      'chiao': this.getChiao(),
     };
     this.setState({
       players: players,
@@ -168,9 +178,10 @@ class GameScreen extends Component {
     this.app.stage.addChild(player);
   }
 
-  removePlayerFromScene(player) {
+  removePlayerFromScene(player, playerKey) {
     this.app.stage.removeChild(player);
-    // todo - delete ref
+    this.playerRefs[playerKey] = null;
+    delete this.playerRefs[playerKey];
   }
 
   // matter
@@ -223,7 +234,7 @@ class GameScreen extends Component {
     const {players} = this.state;
     return Object.keys(players).map((playerKey) => {
       return (
-        <PixiPlayer player={players[playerKey]} key={playerKey}
+        <PixiPlayer player={players[playerKey]} key={playerKey} playerKey={playerKey}
                     addPlayerToScene={this.addPlayerToScene} removePlayerFromScene={this.removePlayerFromScene}
                     addChildToScene={this.addChildToScene} removeChildFromScene={this.removeChildFromScene}
                     addMatterBody={this.addMatterBody}

@@ -29,7 +29,6 @@ class PixiPlayerName extends Component {
 
   componentDidMount() {
     const {displayName, name} = this.props;
-    console.log('name?', name);
     this.pixiText = new PIXI.Text(name, TEXT_STYLE);
     this.pixiText.anchor = textAnchor;
     this.pixiText.position.y = -10;

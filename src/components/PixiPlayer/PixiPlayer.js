@@ -40,6 +40,7 @@ class PixiPlayer extends Component {
 
   props: {
     player: PlayerState,
+    playerKey: string,
     addPlayerToScene(): void,
     removePlayerFromScene(): void,
     addMatterBody(): void,
@@ -85,8 +86,11 @@ class PixiPlayer extends Component {
   }
 
   componentWillUnmount() {
-    this.props.removePlayerFromScene(this.playerContainer);
+    this.props.removePlayerFromScene(this.playerContainer, this.props.playerKey);
     this.props.removeMatterBody(this.bodyBox);
+    for (let speechBubbleKey in this.speechBubblesRefs) {
+      this.speechBubblesRefs[speechBubbleKey].removeElement();
+    }
   }
 
   componentDidUpdate(previousProps) {
